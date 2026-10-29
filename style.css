@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+#masthead {
+	text-align: center;
+	font-family: Academy Engraved LET;
+	font-size: 4rem;
+	width: 100%;
+	background-color: #CC9F9F;
+	border-style: dotted;
+	border: 8px dotted darkgreen;
+
+}
+
+#navigation {
+	font-family: Academy Engraved LET;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 38px;
+}
+.navbar ul {
+	margin: 0 auto;
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	width: fit-content;
+	padding: 9px 17px;
+
+}
+.navbar a {
+	color: darkgreen;
+	font-size: 20px;
+	padding: 5px 15px;
+	font-family: Academy Engraved LET;
+}
+
+
+p { 
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: bold;
+
+}
+
+
+.homepage-images {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	gap: 45px;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+@media (max-width: 500px) {
+	.homepage-images {
+		align-items: center; 
+		flex-direction: column;
+		gap: 45px;
+		}
+	}
+
+
